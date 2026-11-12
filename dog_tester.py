@@ -1,13 +1,15 @@
-#TO-DO: write purpose of this file
-# Purpose: 
+#!/usr/bin/env python3
+# Author: Enoch Li (eli67)
+# Date: 2026-11-10
+# Purpose: To test the `Dog` class in dog.py
 
-# import the Dog class from dog file
 from dog import Dog
-def main():
-    #TO-DO:
-    # Create an object of the Dog class, pass appripate attributes values.
 
-    # Call the .bark() method
+def main():
+	my_dog = Dog("Minty", "Maltipoo")
+	woof = my_dog.bark()
+
+	print(woof)
 
 if __name__ == "__main__":
-  main()
+	main()
